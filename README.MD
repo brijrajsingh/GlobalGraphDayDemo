@@ -7,7 +7,7 @@ Finding Relationships between characters
   p = shortestPath((tywin)-[*]-(arya))
 RETURN p`
 
-![](https://github.com/brijrajsingh/GlobalGraphDayDemo/images/got.png)
+![GOT Query Result](https://github.com/brijrajsingh/GlobalGraphDayDemo/blob/master/images/got.PNG)
 
 ### Mahabharat Dataset 
 The dataset is available at Mahabharat_query.txt
@@ -15,4 +15,4 @@ Finding Relationships between characters
 `MATCH (vich:Person { name:"Vichitravirya" }),(ghat:Person { name:"Ghatotkacha" }),
   p = shortestPath((vich)-[*]-(ghat))
 RETURN p`
-![](https://github.com/brijrajsingh/GlobalGraphDayDemo/images/maha.png)
+![Mahabharat Query Result](https://github.com/brijrajsingh/GlobalGraphDayDemo/blob/master/images/maha.PNG)
